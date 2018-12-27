@@ -16,8 +16,8 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
     override func registerCellModel() {
         super.registerCellModel() 
-//      self.collectionView?.registerCellNib(nib: <#T##UINib#>, modelClass: <#T##AnyClass#>)
-//      self.collectionView?.registerCellClass(cellClass: <#T##AnyClass#>, modelClass: <#T##AnyClass#>)
+//      self.collectionView?.registerCellClass(cellClass: CellClass.self, modelClass: ModelClass.self)
+//      self.collectionView?.registerCellNib(nib: UINib(nibName: "CellNibName", bundle: nil), modelClass: ModelClass.self)
 
     }
 
