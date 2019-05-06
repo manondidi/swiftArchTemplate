@@ -15,7 +15,8 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
      override func initTableView() {
         self.tableView=(self.view.viewWithTag(9000001) as! StateTableView)
-        self.tableView?.estimatedSectionHeaderHeight = 0
+        self.tableView?.estimatedSectionHeaderHeight = 0 
+        self.tableView?.estimatedRowHeight = 30
         
     }
 
